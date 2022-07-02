@@ -1,0 +1,15 @@
+https://www.codeproject.com/Articles/991268/A-Case-Study-on-How-to-use-Joins-Subqueries-and-Un
+
+https://www.sqlshack.com/different-approaches-to-sql-join-multiple-tables/
+
+https://t4tutorials.com/dbms-case-studies-examples-scenarios/
+
+https://dataform.co/blog/data-assertions/
+
+https://www.sqlshack.com/use-sql-server-data-quality-services-ensure-correct-aggregation-of-data/
+
+https://www.geeksforgeeks.org/anomalies-in-relational-model/
+
+https://databasemanagement.fandom.com/wiki/Data_Anomalies
+
+https://towardsdatascience.com/softly-explained-data-normalization-data-anomalies-and-dbms-keys-f8122aefaeb3

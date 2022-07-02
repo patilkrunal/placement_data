@@ -1,0 +1,20 @@
+let covidCarousel = document.querySelector('[data-covid-slider]')
+const covidSlides = document.querySelectorAll('.covid-banner__slide')
+
+if (covidCarousel) {
+
+  const options = {
+    wrapAround: true,
+    pageDots: true,
+    resize: true,
+    prevNextButtons: false,
+    adaptiveHeight: false,
+  }
+  covidCarousel = new Flickity(covidCarousel, options)
+  function setSlideHeight() {
+    covidSlides.forEach(function (item) {
+      item.style.height = '100%';
+    })
+  }
+  window.onload = setSlideHeight
+}

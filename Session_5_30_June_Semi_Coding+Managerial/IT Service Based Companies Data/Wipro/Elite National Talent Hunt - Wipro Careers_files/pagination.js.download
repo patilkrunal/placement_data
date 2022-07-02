@@ -1,0 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+  let paginationDots = document.querySelectorAll(".flickity-page-dots .dot");
+
+  for (let i = 0; i < paginationDots.length; i++) {
+    let iterationsPagination = paginationDots[i];
+    iterationsPagination.setAttribute('tabindex', '0');
+    iterationsPagination.setAttribute('role', 'button');
+  }
+  
+});

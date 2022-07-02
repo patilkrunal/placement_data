@@ -1,0 +1,48 @@
+
+<!-- saved from url=(0047)https://prepinstaprime.com/getlocalstorage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+	var PERMITTED_DOMAIN = "https://prepinsta.com/";
+/**
+ * Receiving message from other domain
+ */
+window.addEventListener('message', function(event) {
+    //alert(localStorage.getItem("localstorage"));
+    // return(localStorage.getItem("localstorage"));
+    // localStorage.setItem("localstorage", event.data);
+    const { action, key, value } = event.data
+
+    if (event.origin === PERMITTED_DOMAIN) {
+        //var msg = JSON.parse(event.data);
+        // var msgKey = Object.keys(msg)[0];
+        // if (event.data) {
+        //     localStorage.setItem("localstorage", event.data);
+        // } else {
+        //     localStorage.removeItem("localstorage");
+        // }
+    }
+    if (action == 'get') {
+        event.source.postMessage({
+              action: 'returnData',
+              key:key,
+              value:localStorage.getItem(key),
+            }, '*');
+     }
+});
+
+// window.addEventListener("message", messageHandler, false);
+// function messageHandler(event) {
+//   if (!domains.includes(event.origin))
+//     return;
+//   const { action, key, value } = event.data
+//   if (action == 'save'){
+//     //window.localStorage.setItem(key, JSON.stringify(value))
+//   } else if (action == 'get') {
+//     event.source.postMessage({
+//       action: 'returnData',
+//       key,
+//       JSON.parse(window.localStorage.getItem(key))
+//     }, '*')
+//   }
+// }
+
+</script></head><body></body></html>

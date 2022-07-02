@@ -1,0 +1,25 @@
+https://www.interviewbit.com/sql-interview-questions/
+
+https://www.kdnuggets.com/2020/11/5-tricky-sql-queries-solved.html
+
+https://www.interviewqs.com/blog/sql-joins
+
+https://sqlbolt.com/lesson/select_queries_with_joins
+
+https://towardsdatascience.com/anomaly-detection-with-sql-7700c7516d1d
+
+https://www.w3resource.com/sql-exercises/sql-exercises-quering-on-multiple-table.php
+
+https://tutorial.techaltum.com/sql-queries-for-practice.html
+
+https://www.sqlshack.com/sql-join-tables-working-with-queries-in-sql-server/
+
+https://www.indeed.com/career-advice/interviewing/common-sql-joins-interview-questions
+
+https://www.complexsql.com/real-time-scenarios-in-sql-queries/
+
+https://www.c-sharpcorner.com/blogs/a-scenario-based-sql-interview-queries-test-modeltraining
+
+https://youtu.be/oXjfCe1eUKQ
+
+guru99.com --> normalization forms and examples....
